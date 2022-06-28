@@ -8,7 +8,7 @@
         a: a increased by 1 if positive, else unchanged.
  */
 int func(a) {
-  return a;
+  return a + 1;
 }
 
 void main() {
