@@ -7,4 +7,10 @@
     Returns:
         a: a increased by 1 if positive, else unchanged.
  */
-void main() {}
+int func(a) {
+  return a;
+}
+
+void main() {
+  print(func(5));
+}
