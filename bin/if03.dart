@@ -7,12 +7,12 @@
     Returns:
         a: integer*/
 int func(a) {
-  if (a > 0) {
-    return a + 1;
+  if (a >= 0) {
+    return a + 10;
   }
   return a - 10;
 }
 
 void main() {
-  print(func(10));
+  print(func(0));
 }
