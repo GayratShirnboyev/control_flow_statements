@@ -20,7 +20,7 @@ String func(number) {
   String u = 'Hot';
   String h = 'Vcery Hot';
 
-  if (number > 0) {
+  if (number < 0) {
     return j;
   }
   if (number >= 1 && number <= 10) {
@@ -42,5 +42,5 @@ String func(number) {
 }
 
 void main() {
-  print(func(17));
+  print(func(22));
 }
