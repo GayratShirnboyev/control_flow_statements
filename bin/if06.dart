@@ -12,7 +12,10 @@
     Returns:
         string: string with the result*/
 String func(a, b, c) {
+  String g = "there are a lot of positive numbers";
   int x = 0;
+  int y = 0;
+  String d = "there are a lot of negative numbers";
   if (a > 0) {
     x = x + 1;
   }
@@ -21,13 +24,20 @@ String func(a, b, c) {
   }
   if (c < 0) {
     x = x + 1;
+
+    return g;
   }
-  if (c > 0) {
-    return "there are a lot of positive numbers";
+
+  if (a > 0) {
+    y = y + 1;
   }
-  if (x > 0) {
-    return "there are a lot of negative numbers";
+  if (b < 0) {
+    y = y + 1;
   }
+  if (c < 0) {
+    y = y + 1;
+  }
+  return d;
 }
 
 void main() {
