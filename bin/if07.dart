@@ -13,27 +13,31 @@
         string: the message to print */
 String func(number) {
   String t = "positive odd number";
-  String l = "positive edd number";
+  String l = "positive even number";
   String b = "negative odd number";
-  String f = "the number even number";
-  String m = "negative o is zero";
+  String f = "negative even number";
+  String m = "the number is zero";
 
   if (number > 0) {
-    if ((number % 2) == 1) {}
-    return t;
+    if ((number % 2) == 1) {
+      return t;
+    }
   }
   if (number > 0) {
-    if ((number % 2) == 0) {}
-    return l;
+    if ((number % 2) == 0) {
+      return l;
+    }
   }
 
-  if (number > 0) {
-    if ((number % 2) == 1) {}
-    return b;
+  if (number < 0) {
+    if ((number % 2) == 1) {
+      return b;
+    }
   }
-  if (number > 0) {
-    if ((number % 2) == 0) {}
-    return f;
+  if (number < 0) {
+    if ((number % 2) == 0) {
+      return f;
+    }
   }
 
   if (number > 0) {
@@ -45,5 +49,5 @@ String func(number) {
 }
 
 void main() {
-  print(func(678));
+  print(func(6780));
 }
