@@ -28,7 +28,7 @@ String func(number) {
   if (number > 99 % 2) {
     return y;
   }
-  return v;
+  return f;
 }
 
 void main() {
