@@ -42,5 +42,5 @@ String func(number) {
 }
 
 void main() {
-  print(func(22));
+  print(func(26));
 }
