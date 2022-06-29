@@ -18,5 +18,5 @@ bool func(a) {
 }
 
 void main() {
-  print(func(23));
+  print(func(73));
 }
