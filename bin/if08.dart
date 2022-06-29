@@ -23,11 +23,11 @@ String func(number) {
   if ((number % 2) == 0) {
     return f;
   }
-  if (number > 9 && number < 100) {}
+  if (number > 9 && number > 99) {}
   if ((number % 2) == 1) {
     return n;
   }
-  if (number > 9 && number < 100) {}
+  if (number > 9 && number > 99) {}
   if ((number % 2) == 0) {
     return y;
   }
