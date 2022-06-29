@@ -8,9 +8,12 @@
         a: a increased by 1 if positive, else unchanged.
  */
 int func(a) {
-  return a + 1;
+  if (a > 0) {
+    return (a + 1);
+  }
+  return a;
 }
 
 void main() {
-  print(func(8));
+  print(func(5));
 }
