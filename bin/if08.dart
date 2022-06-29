@@ -35,6 +35,7 @@ String func(number) {
       return y;
     }
   }
+  return y;
 }
 
 void main() {
