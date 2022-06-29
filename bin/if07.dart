@@ -32,12 +32,12 @@ String func(number) {
     return b;
   }
   if (number > 0) {
-    if ((number % 2) == 1) {}
+    if ((number % 2) == 0) {}
     return f;
   }
 
   if (number > 0) {
-    if ((number % 2) == 1) {}
+    if ((number % 2) == 0) {}
     return m;
   }
 }
