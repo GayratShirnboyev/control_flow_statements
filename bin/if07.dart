@@ -14,7 +14,7 @@
 String func(number) {
   String t = "positive odd number";
   String l = "positive edd number";
-  String b = "negative even number";
+  String b = "negative odd number";
   String f = "the number even number";
   String m = "negative o is zero";
 
@@ -37,9 +37,11 @@ String func(number) {
   }
 
   if (number > 0) {
-    if ((number % 2) == 0) {}
-    return m;
+    if ((number % 2) == 0) {
+      return m;
+    }
   }
+  return b;
 }
 
 void main() {
