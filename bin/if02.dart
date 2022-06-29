@@ -7,9 +7,12 @@
     Returns:
         a: a increased by 1 if positive, else decreased by 2.*/
 int func(a) {
+  if (a > 0) {
+    return (a + 1);
+  }
   return a - 2;
 }
 
 void main() {
-  print(func(9));
+  print(func(7));
 }
