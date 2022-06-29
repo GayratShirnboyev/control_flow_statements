@@ -16,8 +16,7 @@ String func(number) {
   String n = "three-digit odd number";
   String y = "three-digit even number";
 
-  if (number > 9 && number < 100) {}
-  if ((number % 2) == 1) {
+  if (number > 9 && number < 100) if ((number % 2) == 1) {
     return v;
   }
   if (number > 9 && number < 100) {
