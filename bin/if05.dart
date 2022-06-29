@@ -13,15 +13,15 @@ int func(int a, b, c) {
   if (a < 0) {
     x = x + 1;
   }
-  if (a > 0) {
+  if (b < 0) {
     x = x + 1;
   }
-  if (a > 0) {
+  if (c < 0) {
     x = x + 1;
   }
   return x;
 }
 
 void main() {
-  print(func(-6, 2, 7));
+  print(func(-6, -2, -7));
 }
